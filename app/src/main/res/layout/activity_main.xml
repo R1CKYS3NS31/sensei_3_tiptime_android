@@ -35,6 +35,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/option_twenty_percent"
+            android:text="Amazing (20%)"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/option_eighteen_percent"
+            android:text="Good (18%)"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/option_fifteen_percent"
+            android:text="OK (15%)"
             />
     </RadioGroup>
 
