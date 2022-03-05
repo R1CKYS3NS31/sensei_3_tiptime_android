@@ -30,12 +30,14 @@
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/service_question"
+        android:checkedButton="@id/option_twenty_percent"
         >
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/option_twenty_percent"
             android:text="Amazing (20%)"
+
             />
         <RadioButton
             android:layout_width="wrap_content"
@@ -50,6 +52,16 @@
             android:text="OK (15%)"
             />
     </RadioGroup>
+    <Switch
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/round_up_switch"
+        android:text="Round up tip?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tip_options"
+        />
+    
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
