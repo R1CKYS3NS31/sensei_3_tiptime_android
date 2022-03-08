@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(){
             else -> 0.15
         }
         if (cost == null || cost == 0.0){
-            
+
             binding.tipResult.text = ""
             return
         }
